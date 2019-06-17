@@ -1,0 +1,230 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d8f1e79d-25a0-44dc-9c87-651c46f05c92" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DIM FABRICANTE</ID>
+  <Name>DIM FABRICANTE</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2097" scrolltop="-5358" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7514" y="13441" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_FABRICANTE" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3281" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000d10c0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIM_FABRICANTE" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2097</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5358</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="126">
+            <Shape Id="Fabricante" Expanded="false">
+              <Attributes>
+                <Attribute Id="Fabricante" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Nome Fabricante" Expanded="false">
+              <Attributes>
+                <Attribute Id="Nome Fabricante" />
+              </Attributes>
+              <Position x="182" y="20" />
+            </Shape>
+            <Shape Id="Cidade" Expanded="false">
+              <Attributes>
+                <Attribute Id="Cidade" />
+              </Attributes>
+              <Position x="345" y="20" />
+            </Shape>
+            <Shape Id="Pais" Expanded="false">
+              <Attributes>
+                <Attribute Id="Pais" />
+              </Attributes>
+              <Position x="507" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="2f29cf80-5cf9-4fdf-b538-f69ab0e96002">
+    <DataSourceViewID>19190462</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="43add7c1-9518-4da7-9aff-0ba6d07c6293">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="65c41189-d67f-4da7-8e62-74d30f6789e0">
+      <ID>Fabricante</ID>
+      <Name>Fabricante</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="84dbc570-63ec-4854-989b-db226855e27d">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0afb6005-6d17-4b82-a467-17228e04f8ba">
+            <TableID>dbo_DIM_FABRICANTE</TableID>
+            <ColumnID>Fabricante</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="7a56a974-59dc-4cfc-87f6-937033901ee3">
+          <AttributeID>Nome Fabricante</AttributeID>
+          <Name>Nome Fabricante</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ad00c3d7-f711-474b-b46d-712de7ee1e09">
+      <ID>Pais</ID>
+      <Name>Pais</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5ed1331f-374e-49f7-b4a5-7ff350469285">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c716478e-7a78-46f1-8f92-d4cb40226ae4">
+            <TableID>dbo_DIM_FABRICANTE</TableID>
+            <ColumnID>Pais</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="15676994-6e7f-4250-ac26-e6325c0a9957">
+      <ID>Cidade</ID>
+      <Name>Cidade</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="905e6c67-0a27-42d8-a29f-e3756c3c086f">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6123e201-03a7-41c2-a9a4-454c264b2f3f">
+            <TableID>dbo_DIM_FABRICANTE</TableID>
+            <ColumnID>Cidade</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="5e75b1e4-e1be-4fff-a048-f0fea83891e5">
+          <AttributeID>Pais</AttributeID>
+          <Name>Pais</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="481ea846-de8f-4d86-a19f-c0a915db0a52">
+      <ID>Nome Fabricante</ID>
+      <Name>Nome Fabricante</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6dc62faa-9b6c-45e0-8f0f-7a6c55b7cabc">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c9f0f110-6be1-466e-adbb-d50f2255392b">
+            <TableID>dbo_DIM_FABRICANTE</TableID>
+            <ColumnID>NomeFabricante</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="fdb61aba-8ba9-4dc9-acec-8ae163a664a6">
+          <AttributeID>Cidade</AttributeID>
+          <Name>Cidade</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="f5a68216-b852-41b0-9bfe-20723a982e1b">
+      <ID>Hierarquia</ID>
+      <Name>Hierarquia</Name>
+      <Levels>
+        <Level dwd:design-time-name="005e7877-7529-4754-b720-5be6a8927a49">
+          <ID>Pais</ID>
+          <Name>Pais</Name>
+          <SourceAttributeID>Pais</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="f686eaba-e1d1-4dde-8ced-a76faf64fb41">
+          <ID>Cidade</ID>
+          <Name>Cidade</Name>
+          <SourceAttributeID>Cidade</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="ebb58786-5983-4e69-80e1-99cd20fd39f0">
+          <ID>Nome Fabricante</ID>
+          <Name>Nome Fabricante</Name>
+          <SourceAttributeID>Nome Fabricante</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="c49553e2-2496-41b7-bde7-9f0785ba4649">
+          <ID>Fabricante</ID>
+          <Name>Fabricante</Name>
+          <SourceAttributeID>Fabricante</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
